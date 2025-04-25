@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejemplo de Página Web</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #4a90e2;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      color: #4a90e2;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: space-between;
+    }
+    .feature {
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      padding: 1.5rem;
+      flex: 1 1 250px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .feature:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    .feature h3 {
+      margin-bottom: 1rem;
+      color: #4a90e2;
+      font-size: 1.5rem;
+    }
+    .feature p {
+      color: #555;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 2rem;
+      box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    }
+    footer p {
+      margin-bottom: 0.5rem;
+    }
+    footer a {
+      color: #4a90e2;
+      font-weight: bold;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    footer a:hover {
+      color: #ffd700;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a Mi Página Web</h1>
+    <p>Un sitio de ejemplo moderno, limpio y funcional</p>
+  </header>
+
+  <section>
+    <h2>¿Qué Ofrecemos?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Diseño Responsive</h3>
+        <p>Tu sitio se verá genial en cualquier dispositivo, ya sea móvil, tablet o computadora.</p>
+      </div>
+      <div class="feature">
+        <h3>Rápido y Seguro</h3>
+        <p>Optimización en rendimiento y buenas prácticas para una experiencia segura.</p>
+      </div>
+      <div class="feature">
+        <h3>Fácil de Administrar</h3>
+        <p>Interfaz amigable para que puedas editar tu contenido fácilmente.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <p>¿Tienes un proyecto en mente? ¡Hablemos!</p>
+    <p>Email: <strong><a href="mailto:lauripagge.prog@gmail.com">lauripagge.prog@gmail.com</a></strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Página de Ejemplo por Laureano</p>
+    <p><a href="mailto:lauripagge.prog@gmail.com">Contáctame</a></p>
+  </footer>
+</body>
+</html>
